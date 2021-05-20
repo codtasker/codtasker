@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 /*menu*/
+.menutitulo {
+    font-family: 'Source Code Pro', monospace;
+}
 .menutitulo header {
     position: fixed;
 }
 .menutitulo div {
-    background-color: black;
+    background-color: #1e1e1e;
 }
 .menutitulo h1 {
-    font-family: 'Source Code Pro', monospace;
     font-size: 30px;
     color: blueviolet;
     padding: 5px;
@@ -22,7 +24,18 @@
     margin: 3px;
 }
 .menutitulo ul {
+    list-style: none;
     position: absolute;
-    left: 900px;
+    left: 800px;
     top: 0px;
+}
+/* corpo index */
+
+.imgslider img {
+    width: 75%;
+    position: absolute;
+}
+
+body{
+    background-color: black;
 }
