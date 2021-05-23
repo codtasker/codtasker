@@ -58,13 +58,18 @@
 }
 .texto a {
     font-size: 14pt;
-    color: red;
+    color: black;
+    background-color: blueviolet;
+    padding: 5px;
+    text-decoration: none;
 }
 .texto a:hover {
     padding-top: 5px;
     color: yellow;
 }
-
+.buton{
+    padding-top: 10px;
+}
 body{
     background-color: black;
 }
