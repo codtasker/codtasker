@@ -31,11 +31,39 @@
 }
 /* corpo index */
 
-.imgslider img {
-    width: 35%;
+.imgslider {
     position: absolute;
-    left: 800px;
-    top: 100px;
+    left: 0;
+    top: 30;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.texto {
+    color: blueviolet;
+    max-width: 1000px;
+    margin: auto;
+    flex-grow: 1;
+    width: 50%;
+}
+.texto h1 {
+    margin: 0;
+    font-size: 20pt;
+}
+.texto p {
+    font-size: 15pt;
+    padding-top: 5px;
+}
+.texto a {
+    font-size: 17pt;
+    background-color: darkblue;
+}
+.texto a:hover {
+    font-size: 17pt;
+    padding-top: 5px;
+    color: yellow;
 }
 
 body{
