@@ -53,15 +53,14 @@
     font-size: 20pt;
 }
 .texto p {
-    font-size: 15pt;
+    font-size: 16pt;
     padding-top: 5px;
 }
 .texto a {
-    font-size: 17pt;
-    background-color: darkblue;
+    font-size: 14pt;
+    color: red;
 }
 .texto a:hover {
-    font-size: 17pt;
     padding-top: 5px;
     color: yellow;
 }
