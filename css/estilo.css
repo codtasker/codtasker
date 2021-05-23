@@ -32,8 +32,10 @@
 /* corpo index */
 
 .imgslider img {
-    width: 75%;
+    width: 35%;
     position: absolute;
+    left: 800px;
+    top: 100px;
 }
 
 body{
