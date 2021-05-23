@@ -40,6 +40,8 @@
     background-size: cover;
     background-position: center;
     display: flex;
+    margin: 1;
+    overflow: hidden;
 }
 .texto {
     color: blueviolet;
@@ -72,4 +74,12 @@
 }
 body{
     background-color: black;
+}
+/* footer */
+footer {
+    position: absolute;
+    top: 600px;
+    text-align: left;
+    color: blueviolet;
+    overflow: hidden;
 }
