@@ -17,15 +17,15 @@
 .menutitulo a {
     font-size: 20pt;
     text-decoration: none;
+    color: blueviolet;
+}
+.menutitulo a:hover{
+    color: yellow;
 }
 .menutitulo li {
     display:inline-block;
     padding: 5px;
     margin: 3px;
-    color: blueviolet;
-}
-.menutitulo li:hover{
-    color: yellow;
 }
 .menutitulo ul {
     list-style: none;
