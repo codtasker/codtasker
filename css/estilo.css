@@ -22,6 +22,7 @@
     display:inline-block;
     padding: 5px;
     margin: 3px;
+    color: blueviolet;
 }
 .menutitulo li:hover{
     color: yellow;
@@ -29,8 +30,8 @@
 .menutitulo ul {
     list-style: none;
     position: absolute;
+    top: 0%;
     left: 60%;
-    top: 0px;
 }
 /* corpo index */
 .imgslider {
