@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 body{
     background-color: black;
-    color:blueviolet;
+    color:white;
 }
 a{
     text-decoration: none;
     color: white;
 }
-a:hover{
-    color: yellow;
+.centro{
+    text-align: center;
 }
