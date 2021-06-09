@@ -10,3 +10,31 @@ a{
 .centro{
     text-align: center;
 }
+.padinng5{
+    padding: 5vh;
+    padding-bottom: 2vh;
+}
+.card{
+    margin: 0px 100px 0px 100px;
+    padding: 0;
+    color: black;
+}
+
+.card h2{
+    font-size: 20pt;
+}
+.card p{
+    margin-left: 2vh;
+    float: left;
+}
+.imgcarde{
+    width: 100%;
+    height: 100%;
+}
+.meio {
+    width: 50%;
+    text-justify:newspaper;
+}
+a:hover {
+    color: grey;
+}
