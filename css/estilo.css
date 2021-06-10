@@ -38,3 +38,8 @@ a{
 a:hover {
     color: grey;
 }
+
+.textoprinci{
+    font-size: 16pt;
+    background-color: #1A181A;
+}
