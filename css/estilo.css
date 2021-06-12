@@ -41,5 +41,24 @@ a:hover {
 
 .textoprinci{
     font-size: 16pt;
+}
+.cinza{
     background-color: #1A181A;
+}
+.bemvindo{
+    animation: titulo 2s;
+}
+.textosec{
+    animation: titulo 3s;
+}
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
 }
