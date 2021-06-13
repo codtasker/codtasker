@@ -46,17 +46,32 @@ a:hover {
     background-color: #1A181A;
 }
 .bemvindo{
-    animation: titulo 2s;
+    padding: 10vh 20vh 0vh 20vh;
+    animation: titulo 2s ease;
 }
 .textosec{
-    animation: titulo 3s;
+    animation: titulo 3s ease;
+}
+.animation{
+    animation: texto 4s ease;
 }
 @keyframes titulo {
     0% {
         opacity: 0;
     }
-    50%{
-        opacity: 0.5;
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes texto {
+    0%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
     }
     100%{
         opacity: 1;
