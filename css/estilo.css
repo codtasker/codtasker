@@ -31,6 +31,14 @@ a{
     width: 100%;
     height: 100%;
 }
+.image{
+    margin: auto auto auto auto;
+}
+.image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .meio {
     width: 50%;
     text-justify:newspaper;
@@ -47,13 +55,13 @@ a:hover {
 }
 .bemvindo{
     padding: 10vh 0vh 0vh 0vh;
-    animation: titulo 2s ease;
+    animation: titulo 0.5s ease;
 }
 .textosec{
-    animation: titulo 2s ease;
+    animation: titulo 0.5s ease;
 }
 .animation{
-    animation: texto 3s ease;
+    animation: texto 1s ease;
 }
 .botton{
     padding-bottom: 3vh;

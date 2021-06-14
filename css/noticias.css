@@ -7,14 +7,14 @@
     }
 }
 .noti1{
-    animation: noti 3s ease;
+    animation: noti 1s ease;
 }
 .noti2{
-    animation: noti 4s ease;
+    animation: noti 1.5s ease;
 }
 .noti3{
-    animation: noti 5s ease;
+    animation: noti 2s ease;
 }
 .noti4{
-    animation: noti 6s ease;
+    animation: noti 2.5s ease;
 }
