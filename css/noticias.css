@@ -1,0 +1,20 @@
+@keyframes noti {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.noti1{
+    animation: noti 1s ease;
+}
+.noti2{
+    animation: noti 1.5s ease;
+}
+.noti3{
+    animation: noti 2s ease;
+}
+.noti4{
+    animation: noti 2.5s ease;
+}
