@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 body{
-    background-color: black;
-    color:white;
+    background-color: #66BDFF;
+    color:black;
 }
 a{
     text-decoration: none;
-    color: white;
+    color: #E3A444;
 }
 .centro{
     text-align: center;
@@ -18,6 +18,7 @@ a{
     margin: 5px 10% 0px 10%;
     padding: 0;
     color: black;
+    background-color: #E3A444;
 }
 
 .card h2{
@@ -51,7 +52,7 @@ a:hover {
     font-size: 16pt;
 }
 .cinza{
-    background-color: #1A181A;
+    background-color: lightskyblue;
 }
 .bemvindo{
     padding: 10vh 0vh 0vh 0vh;
@@ -84,4 +85,7 @@ a:hover {
     100%{
         opacity: 1;
     }
+}
+.borda {
+    border-color: #1A181A;
 }
